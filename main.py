@@ -1,9 +1,13 @@
-available_cheese = "e"
-if available_cheese == "edam":
-    print("Kupuję edam")
-elif available_cheese == "brie":
-    print ("Kupuje brie")
-elif available_cheese == "gouda":
-    print ("Kupuje gouda")
-else :
-    print ("dzwon do szefa")
+shopping = {"piekarnia" : ["bulki", "paczek", "chleb"],
+           "warzywniak" : ["marchew", "seler", "rukola"]}
+product_count = 0 
+
+for sklep, product in shopping.items():
+    shop_capitalize = sklep.capitalize()
+    product_capitalize = [product.capitalize() for product in product]
+
+    print(f"Ide do {shop_capitalize} i kupuje tam {product_capitalize}.")
+    product_count = product_count + len(product_capitalize)
+
+print (f"W sumie kupuje {product_count} produktow")
+print ("nudne to ")
