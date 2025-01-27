@@ -12,4 +12,5 @@ for sklep, product in shopping.items():
 print (f"W sumie kupuje {product_count} produktow")
 print (""Hiszpanska inkwizycja" to najlepszy skecz grupy Monty Pythona")
 print ("slaby skecz")
+print ("update")
 
