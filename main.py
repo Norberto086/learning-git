@@ -10,3 +10,4 @@ for sklep, product in shopping.items():
     product_count = product_count + len(product_capitalize)
 
 print (f"W sumie kupuje {product_count} produktow")
+print (""Hiszpanska inkwizycja" to najlepszy skecz grupy Monty Pythona")
